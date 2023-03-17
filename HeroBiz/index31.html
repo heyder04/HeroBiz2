@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .empty {
+            border: none;
+            background-color: white;
+        }
+        td,th{
+            margin: 0px;
+            width: 50px;
+            text-align: center;
+            padding: 0.3rem;
+
+        }
+        th {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <colgroup>
+            <col style="background-color: red;">
+            <col style="background-color: aqua;">
+            <col >
+            <col>
+            <col >
+            <col >
+            <col style="background-color: orange;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>I</th>
+                <th>II</th>
+                <th>III</th>
+                <th>IV</th>
+                <th>V</th>
+                <th>VI</th>
+                <th>VII</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>H</td>
+                <td class="empty"></td>
+                <td style="font-size: 13px;text-align: center;font-weight: 600; color: green;" colspan="3" class="empty">Periodic Tables of Elements</td>
+                <td class="empty"></td>
+                <td>He</td>
+            </tr>
+            <tr>
+                <td>Li</td>
+                <td>Be</td>
+                <td colspan="3" class="empty"></td>
+                <td>B</td>
+                <td>Ne</td>
+            </tr>
+            <tr>
+                <td>Na</td>
+                <td>Mg</td>
+                <td colspan="3" class="empty"></td>
+                <td>Al</td>
+                <td>Ag</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>Ca</td>
+                <td>Sc</td>
+                <td>Ti</td>
+                <td>V</td>
+                <td>Ga</td>
+                <td>Kr</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

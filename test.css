@@ -1,0 +1,17 @@
+.fade-in{
+    transform: translateY(150px);
+    font-size: 50px;
+    
+   
+}
+.fade-in.appear{
+    animation: top 1s ease-in forwards ;
+    
+
+}
+@keyframes top{
+    100%{
+        transform: translateY(0px);
+        font-size: 100px;
+    }
+}

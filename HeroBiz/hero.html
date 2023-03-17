@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herobiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="herobiz2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div class="loading">
+        <img src="/HeroBiz/assets/img/Spinner-1.2s-231px.gif" alt="">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand myheading" href="#">Herobiz.</a>
+        <span><span><button class="btn btn-info mybutton">Get Started</button></span></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto myul">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Home
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Home1-index1.html</a>
+                        <a class="dropdown-item" href="#">Home2-index2.html</a>
+                        <a class="dropdown-item" href="#">Home3-index3.html</a>
+                        <a class="dropdown-item" href="#">Home4-index4.html</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mega menu
+                    </a>
+                    <div class="dropdown-menu megamenu  pr-5 p-3 " aria-labelledby="navbarDropdown">
+                        <div class="row">
+                            <a class="dropdown-item col-3 dcol" href="#">Column 1 link 1</a>
+                            <a class="dropdown-item col-3 dcol" href="#">Column 2 link 1</a>
+                            <a class="dropdown-item col-3 dcol" href="#">Column 3 link 1</a>
+                            <a class="dropdown-item col-3" href="#">Column 4 link 1</a>
+                        </div>
+                        <div class="row">
+                            <a class="dropdown-item col-3 dcol" href="#">Column 1 link 2</a>
+                            <a class="dropdown-item col-3 dcol" href="#">Column 2 link 2</a>
+                            <a class="dropdown-item col-3 dcol" href="#">Column 3 link 2</a>
+                            <a class="dropdown-item col-3" href="#">Column 4 link 2</a>
+                        </div>
+                        <div class="row">
+                            <a class="dropdown-item col-3 dcol" href="#">Column 1 link 3</a>
+                            <a class="dropdown-item col-3 dcol" href="#">Column 2 link 3</a>
+                            <a class="dropdown-item col-3 dcol" href="#">Column 3 link 3</a>
+                            <a class="dropdown-item col-3" href="#">Column 4 link 3</a>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Drop Down
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Drop Down 1</a>
+
+                        <div class="dropright rightcss">
+                            <a type="button" class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Dropright
+                            </a>
+                            <div class="dropdown-menu rightcss-menu">
+                                <a class="dropdown-item" href="#">Deep Drop Down 1 </a>
+                                <a class="dropdown-item" href="#">Deep Drop Down 2 </a>
+                                <a class="dropdown-item" href="#">Deep Drop Down 3 </a>
+                                <a class="dropdown-item" href="#">Deep Drop Down 4 </a>
+                                <a class="dropdown-item" href="#">Deep Drop Down 5</a>
+
+                            </div>
+                        </div>
+
+
+
+
+                        <a class="dropdown-item" href="#">Drop Down 2</a>
+                        <a class="dropdown-item" href="#">Drop Down 3</a>
+                        <a class="dropdown-item" href="#">Drop Down 4</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Contact</a>
+                </li>
+
+            </ul>
+
+
+
+        </div>
+    </nav>
+    <div class="herodiv">
+        <img src="assets/img/hero-carousel/hero-carousel-3.svg" class=" hero " alt="gg">
+        <br>
+        <br>
+        <br>
+        <h2 class="text-center display-4">Welcome to <span class="text text-info">HeroBiz</span></h2>
+        <p class="text-center myp">Et voluptate esse accusantium accusams natus reiciendis quidem voluptates similique
+            aut.</p>
+        <div class="text-center">
+            <button class="btn btn-info">Get Started</button>
+            <button class="btn font-weight-bold "><img class="mr-1 play "
+                    src="/HeroBiz/assets/img/hero-carousel/play-circle.svg" alt="">Watch Video</button>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container mygrid ">
+        <div class="row myrow  ">
+            <div class="col-xl-3 col-md-6 fade-in2">
+                <img src="/HeroBiz/assets/img/activity.svg" alt="activity photo">
+                <h3>Lorem Ipsum</h3>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+            <div class="col-xl-3 col-md-6 fade-in2">
+                <img src="/HeroBiz/assets/img/bounding-box-circles.svg" alt="bouding box">
+                <h3>Sed ud perspici</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+            <div class="col-xl-3 col-md-6 fade-in2">
+                <img src="/HeroBiz/assets/img/calendar.svg" alt="calendar">
+                <h3>Magni Dolores</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+            <div class="col-xl-3 col-md-6 fade-in2">
+                <img src="/HeroBiz/assets/img/broadcast.svg" alt="">
+                <h3>Nemo Enim</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="about-header text-center fade-in">
+            <h2>About us</h2>
+            <p class=" text-center "> Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt
+                iusto omnis nam voluptas
+                asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
+        </div>
+        <div class="about-body fade-in3">
+            <div class="row ">
+                <div class="col-sm-12 col-md-4 col-xl-5"><img class="w-100" src="/HeroBiz/assets/img/about.jpg" alt="">
+                </div>
+                <div class="col-sm-12 col-md-8 col-xl-7">
+                    <h2 class="mx-5 about-head">Neque officiis dolore maiores et exercitationem quae est seda lidera pat
+                        claero</h2>
+                    <div class="d-flex myflex">
+                        <div>Saepe fuga</div>
+                        <div>Voluptates</div>
+                        <div>Corrupti</div>
+                    </div>
+                    <hr class="mx-5">
+                    <div class="changable1">
+                        <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente
+                            atque
+                            consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                        <p class="changable-p-main"><img class="" src="/HeroBiz/assets/img/check.svg" alt="">
+                            Repudiandae rerum velit modi et officia quasi facilis</p>
+                        <p class="changable-p-second">Laborum omnis voluptates voluptas qui sit aliquam blanditiis.
+                            Sapiente
+                            minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                        <p class="changable-p-main"><img class="" src="/HeroBiz/assets/img/check.svg" alt="">
+                            Incidunt non veritatis illum ea ut nisi</p>
+                        <p class="changable-p-second">Non quod totam minus repellendus autem sint velit. Rerum debitis
+                            facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi
+                            at.
+                            Dolorem quo tempora. Quia et perferendis.</p>
+                        <p class="changable-p-main"><img class="" src="/HeroBiz/assets/img/check.svg" alt="">
+                            Omnis ab quia nemo dignissimos rem eum quos..</p>
+                        <p class="changable-p-second">Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis
+                            quos
+                            nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque
+                            magnam
+                            odit enim quaerat. Vero error error voluptatem eum.</p>
+
+                    </div>
+                    <div class="changable2 ">
+                        <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente
+                            atque
+                            consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                        <p class="changable-p-main"><img class="" src="/HeroBiz/assets/img/check.svg" alt="">
+                            Repudiandae rerum velit modi et officia quasi facilis</p>
+                        <p class="changable-p-second">Laborum omnis voluptates voluptas qui sit aliquam blanditiis.
+                            Sapiente
+                            minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                        <p class="changable-p-main"><img class="" src="/HeroBiz/assets/img/check.svg" alt="">
+                            Incidunt non veritatis illum ea ut nisi</p>
+                        <p class="changable-p-second">Non quod totam minus repellendus autem sint velit. Rerum debitis
+                            facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi
+                            at.
+                            Dolorem quo tempora. Quia et perferendis.</p>
+                        <p class="changable-p-main"><img class="" src="/HeroBiz/assets/img/check.svg" alt="">
+                            Omnis ab quia nemo dignissimos rem eum quos..</p>
+                        <p class="changable-p-second">Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis
+                            quos
+                            nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque
+                            magnam
+                            odit enim quaerat. Vero error error voluptatem eum.myp2</p>
+
+                    </div>
+                    <div class="changable3 ">
+                        <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente
+                            atque
+                            consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                        <p class="changable-p-main"><img class="" src="/HeroBiz/assets/img/check.svg" alt="">
+                            Repudiandae rerum velit modi et officia quasi facilis</p>
+                        <p class="changable-p-second">Laborum omnis voluptates voluptas qui sit aliquam blanditiis.
+                            Sapiente
+                            minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                        <p class="changable-p-main"><img class="" src="/HeroBiz/assets/img/check.svg" alt="">
+                            Incidunt non veritatis illum ea ut nisi</p>
+                        <p class="changable-p-second">Non quod totam minus repellendus autem sint velit. Rerum debitis
+                            facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates
+                            nisi
+                            at.
+                            Dolorem quo tempora. Quia et perferendis.</p>
+                        <p class="changable-p-main"><img class="" src="/HeroBiz/assets/img/check.svg" alt="">
+                            Omnis ab quia nemo dignissimos rem eum quos..</p>
+                        <p class="changable-p-second">Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis
+                            quos
+                            nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque
+                            magnam
+                            odit enim quaerat. Vero error error voluptatem eum.myp3</p>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+   
+
+    <div class=" swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/HeroBiz/assets/img/clients/client-1.png" alt="1"></div>
+            <div class="swiper-slide"><img src="/HeroBiz/assets/img/clients/client-2.png" alt="2"></div>
+            <div class="swiper-slide"><img src="/HeroBiz/assets/img/clients/client-3.png" alt="3"></div>
+            <div class="swiper-slide"><img src="/HeroBiz/assets/img/clients/client-4.png" alt="4"></div>
+            <div class="swiper-slide"><img src="/HeroBiz/assets/img/clients/client-5.png" alt="5"></div>
+            <div class="swiper-slide"><img src="/HeroBiz/assets/img/clients/client-6.png" alt="6"></div>
+            <div class="swiper-slide"><img src="/HeroBiz/assets/img/clients/client-7.png" alt="7"></div>
+            <div class="swiper-slide"><img src="/HeroBiz/assets/img/clients/client-8.png" alt="8"></div>
+        </div>
+    </div>
+    <div class="afterclient">
+        <div class="ctn-about">
+            <h1>Alias sunt quas <em>Cupiditate</em> oluptas hic minima</h1>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+            <a class="btn btn-primary bg-primary text-light" href="#">Call To Action</a>
+        </div >
+        <div class="ctn-img"><img src="/HeroBiz/assets/img/cta.jpg" alt=""></div>
+    </div>
+    <br>
+    <div class="withvideo">
+        <div class="row row-h">
+            <div class="col-6 vid-img">
+                <div class="overlay"></div>
+                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+            </div>
+            <div class="col-6 onfocus-cont text-light ">
+
+                <h3>Voluptatem dignissimos provident quasi corporis</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <p><img src="" alt=""></p>
+                <p><img src="" alt=""></p>
+                <p><img src="" alt=""></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/HeroBiz/herobiz.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+   
+   
+    </script>
+     <script>
+         var swiper = new Swiper(".mySwiper", {
+             slidesPerView: 6,
+             spaceBetween: 30,
+             slidesPerGroup: 1,
+             loop: true,
+             loopFillGroupWithBlank: true,
+             autoplay: {
+                 delay: 4000,
+                 disableOnInteraction: false,
+             },
+            
+             navigation: {
+                 nextEl: ".swiper-button-nex",
+                 prevEl: ".swiper-button-prev",
+             },
+         });
+         
+
+
+     </script>
+    </script>
+
+</body>
+
+</html>
